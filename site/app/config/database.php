@@ -4,10 +4,10 @@ class DATABASE_CONFIG {
 	var $default = array(
 		'driver' => 'mysql',
 		'persistent' => false,
-		'host' => '',
-		'login' => '',
-		'password' => '',
-		'database' => '',
+		'host' => 'localhost',
+		'login' => 'admin',
+		'password' => 'wPGrfRWvqM3g',
+		'database' => 'dvs',
 	);
 }
 ?>
