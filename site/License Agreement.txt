@@ -1,0 +1,27 @@
+
+  The DVS License (http://www.voucherscript.com/license.html)
+  Denovo Voucher Script (DVS): The Instant Voucher Site (http://www.voucherscript.com)
+  Copyright 2009-2012, Computed Synergy (http://www.computedsynergy.com), Pakistan.
+ 
+  Permission is hereby granted to:
+ 
+  1] Use this software free of charge for personal purposes only.
+  2] Modify the script to customize it as needed.
+ 
+ 
+  Provided you agree to the following terms:
+ 
+  1] You will NOT sell or resell any part of this software or works deriving from it.
+  2] You will not remove or modify any copyright notice and/or credits without written permission of it's author(s).
+  3] You will not use this software for illegal, adult, pornograpic or abusive purposes.
+
+ 
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+  DEALINGS IN THE SOFTWARE.
+  
+ 

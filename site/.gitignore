@@ -1,0 +1,11 @@
+/app/tmp/cache/models/*
+!/app/tmp/cache/models/empty
+/app/tmp/cache/persistent/*
+!/app/tmp/cache/persistent/empty
+/app/tmp/cache/views/*
+!/app/tmp/cache/views/empty
+/app/tmp/sessions/*
+!/app/tmp/sessions/empty
+/app/tmp/tests/*
+!/app/tmp/tests/empty
+/cake/tests/*

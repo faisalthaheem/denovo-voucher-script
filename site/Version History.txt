@@ -1,0 +1,127 @@
+-- following are the rlease notes for 4.6
+==========================================
+Recreate view: vwbrowse
+ALTER TABLE `merchants` ADD COLUMN `cbtype` ENUM('fixed','percentage') NOT NULL DEFAULT 'fixed'  AFTER `modified` , ADD COLUMN `cbvalue` DECIMAL(10,2) NOT NULL DEFAULT 0.0  AFTER `cbtype` ;
+ALTER TABLE `cods` ADD COLUMN `cbtype` ENUM('fixed','percentage') NOT NULL DEFAULT 'fixed'  AFTER `tag` , ADD COLUMN `cbvalue` DECIMAL(10,2) NOT NULL DEFAULT 0.0  AFTER `cbtype` ;ALTER TABLE `sysconfigurations` ADD COLUMN `editable` TINYINT NOT NULL DEFAULT 0  AFTER `dataval` ;Recreate view Vwbrowse;
+ALTER TABLE `sites` ADD COLUMN `emailnoreply` VARCHAR(255) NULL  AFTER `ctr` , ADD COLUMN `emailinfo` VARCHAR(255) NULL  AFTER `emailnoreply` , ADD COLUMN `emailcontact` VARCHAR(255) NULL  AFTER `emailinfo` ;
+ALTER TABLE `pages` ADD COLUMN `layout` VARCHAR(512) NOT NULL DEFAULT 'default'  AFTER `pagecontent` , ADD COLUMN `modified` DATETIME NULL  AFTER `created` ;
+UPDATE `pages` SET `modified` = `created`;
+ALTER TABLE `pages` ADD UNIQUE INDEX `unique_page_site` (`site_id` ASC, `linkname`(255) ASC) ;
+
++ [CE] Optimization: Many bug fixes.
++ [CE] Added: Site specific email addresses.
++ [EE] Bug Fix: Merchant name was not shown in case Click origination was merchant based cashback.
++ [CE] Added: CMS - modified date/time is now shown.
++ [CE] AddeD: CMS - Layout selection for the page.
++ [CE] Added: CMS - Code Mirror for prettier HTML content editing.
++ [CE] Bug Fix: CMS - Content is saved at page creation.
++ [CE] Enhancement: CMS - Multiple sites can now have pages with similar link names.
++ [CE] Bug Fix: CMS - Security fix, administrative views only accessible by authorized user.
++ [CE] Optimization: CMS - Query optimizations.
+
+
+Version 4.5 [2012-09-12]
+========================
++ [CE] Optimization: Segregated Coupons and Vouchers as was earlier.
++ [CE] Bug Fix: Vwbrowse::getTopCODsDataForIndexPage grouped by CODID to eliminate duplicate rows.
++ [CE] Bug Fix: Vwbrowse::afterFind - added handling for count queries, singular results.
++ [CE] Bug Fix: Vwbrowse - corrected joins.
++ [CE] Optimization: Backoffice login.
++ [CE] Added: Masked affiliate urls for codes, offers etc with intimation to user they are being redirected..
+- [CE] Removed: Facebook authentication, will be added again in future in a better way..
++ [CE] Optimizations: View counts now posted on page load asynchronously.
++ [CE] Optimizations: Page render times (DOM Content loaded), improved by 500% (from 16+ seconds to 3-4 seconds) - non page content related requests now take < 1s.
++ [CE] Added: View caching.
+
+
+
+Version 4.4 [2012-07-08]
+========================
++ [PE] Added: Coupons can now be linked to locations defined for their merchants, these are then shown on local offers page.
++ [PE] Added: Local offers page moved from merchants to pages controller.
++ [PE] Added: Clustered local offers support added. Quick preview now shows offer address as well.
++ [CE] Revised: Minimized comments in stored procedures.
++ [PE] Added: Full urls to vouchers with each location they are linked to.
++ [CE] Bug Fix: Fixed min/max and default selected date on voucher creaton/edit.
++ [CE] Bug Fix: Added a visitor user to the users table to track users not logged in.
++ [CE] Added: Latest jQuery and JqueryUI. Moved COD validations to models where they belong.
++ [CE] Added: Tag support for CODs.
++ [CE] Added: vwbrowse - revised view with optimized query for achieving certain tasks, gradually all redundant views will be eliminated in favor of this.
++ [CE] Updated: CakePHP 1.3.15
+
+
+Version 4.3 [2012-04-03]
+========================
++ Bug Fix: revised query sytnax for linking of categories/merchants/cods to sites. It now uses replace to avoid inserting duplicate rows.
+- Removed: linkcategorysite procedure and added the script to category model
++ Bug Fix: categories, merchants and vouchers are now ordered alphabetically in back office.
++ Bug Fix: Removed duplication of categories arising due to merging when creating merchants in back office.
+- Removed: Routine deleteVoucher, merged into code.
+- Removed: Routine deleteLocation, merged into code.
+- Removed: Routine deleteMerchant, merged into code.
+- Removed: Routine deleteUser, merged into code.
++ Bug Fix: When adding merchants, removed merged categories.
++ Bug Fix: When editing merchants, valid categories are now listed.
++ Added: Multiple Languages now supported.
+
+
+Version 4.2 [2012-02-23]
+========================
++ Optimization: Meta Titles as defined in merchant management are now used instead of dynamically generated generic titles.
++ Optimization: Searching for Merchants and Codes are now done through GET request changing address bar addresses for linking.
++ Bug Fix: iCodesUS and iCodesUK plugins problems
++ Optimization: removed countCODs that was being used on backoffice to improve performance
++ Added: Option to delete pages
++ Bug Fix: vwsitesmerchantscodcounts showed cods count which included expired cods.
++ Optimized: vwcategoriesmerchantscodcounts
++ Optimized: Vwcategoriesbrowse
++ Added: Meta title, keywords and description (metatitle, metadesc, metakws TEXT) added to page management
++ Bug Fix: Codes added same day would not appear on merchant's detail page though were visible on new stuff page.. fixed.
++ Optimization: Merchant index by category is now sorted by merchant name and then number of vouchers each has
++ Optimization: Model::vwsitemerchantscodcounts.php Parameterized limit parameter in methods Formatted, added indent to the + list of tabbed browse in document
++ Optimization: Introduced optional randomized row selection in Vwsitesmerchantscodcounts::getTopMerchantsForIndexPage
++ Added: generic text fields 1,2 and 3 for print voucher templates to cods
++ Added: generic merchant address1, address2, phone number1, phone number2, phone number3 fields
++ Added: ajax.nocache in backoffice to facilitate users behind proxy servers.
+
+
+Version 4.1 [2011-11-09]
+========================
++ Implemented Open Graph, for merchants, the description is read from the meta description field.
++ Bug Fix: on voucher detail page, merchant affiliate url instead of voucher affiliate url was being used. Fixed.
++ Optimization: Latest added codes are now displayed first.
++ Optimization: Merchants are now displayed in alphabetical order.
++ Optimization: Return key now causes the search query to be submitted.
++ Optimization: Safe names are now checked for conformance with lowercased characters, numbers and hyphen.
++ Integrated with Janrain.
++ Added support for email unsubscribe.
++ Welcome email is now sent upon subscribing.
++ Bug fix: Merged categories are not shown any longer.
++ Optimization: Instead of showing numbers, safe names are now used to link pages.
++ Added support for adding new pages with CMS.
++ optimization: removed the duplicate call that was being made in the pages::welcome() to fetch the top cod data.
++ Optimization: Latest cods are now shown in printable/top/recent lists.. sorted by their PK.
++ Bug Fix: Merchant detail() was showing all coupons irrespective of their expiry. Fixed.
++ Optimization: Categories with hightest number of vouchers are now shown on right.
++ Bug Fix: Backoffice Image selctor dialog for merchants and CODs had paging problems. Fixed.
++ Bug Fix: Safe Category name was being shown instead of Category Name on browse merchants by category. Fixed.
++ Optimization: Merchants are now displayed with having highest number of coupons shown first.
++ Bug fix: Imported categories from iCodes now have their category names replaced with spaces for any underscores.
++ Bug Fix: iCodesUS/UK, merchant import would loop endlessly due to a bug that lead to next page request had a 0 total pages been returned at Nth page.
+
+Version 4.0.2b	[2011-08-]
++	Added column safe_title to vwcodssitesmerchants
+
+Version 4.0.1b	[2011-08-04]
++	Bug Fix - Registration window did not accept email addresses with a period.
++	Tweet support added in controller and model for vouchers (for future use),
+	"tweetcount" column added in "cods" table, tweetcount column added to queries 
+	of mysql views.
++	Log error message on 0 (zero) import items for IcodesUK and IcodesUS.
++	Added cods_custom_image_url column to cods for specification of custom images next to vouchers,
+	if no image url is provided then merchant's logo is used
++	Numerous other fixes here and there.
+
+
+Version 4.0.0b	[2011-07-06]
++	Released to public

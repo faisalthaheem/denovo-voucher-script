@@ -1,0 +1,52 @@
+IMPORTANT: DO NOT INSTALL INTO A SUB DIRECTORY, INSTALL ONLY
+ON A DOMAIN OR SUB DOMAIN!
+
+Paid services are also available for installation. Please visit
+http://www.voucherscript.com/professional-services.html for details
+on "Professional Installation"
+
+To setup DB, execute the following sql script files
+===================================================
+/app/config/schema/db.sql
+/app/config/schema/adility.sql
+/app/config/schema/affilinet.sql
+/app/config/schema/icodesuk.sql
+/app/config/schema/icodesus.sql
+
+Note(s):
+[1] The database user must have privileges to create views and stored procedures
+[2] Depending on the performance of your host, you may need to set the PHP script time out so that imports are not killed in the middle...
+
+
+Setup
+======
+Upload all files to the root of your hosting root
+Set db info in /app/config/database.php
+Setup cron jobs as fullows: (curl url)
+
+For importing from Affilinet
+http://<domain>/admin/dvs4affilinet/imports/index
+
+For importing from Adilit Offers DB
+http://<domain>/admin/dvs4adilityodb/imports/index
+
+For importing from iCodes UK
+http://<domain>/admin/dvs4icodesuk/imports/index
+
+For importing from iCodes US
+http://<domain>/admin/dvs4icodesus/imports/index
+
+
+That's it! you're done.
+Access the back office at http://yourdomain/admin with the following default credentials
+admin@voucherscript.com
+sysadmin
+
+Important
+=========
+If you setup your site under sites as www.site.com - then access it as www.site.com and not as site.com
+
+Further help
+============
+Please refer to the DVS 4 User manual available at http://sourceforge.net/projects/voucherscript/files/
+For support please register and use http://talk.voucherscript.com

@@ -1,0 +1,88 @@
+.expireOffers-widget-container .detail .sliderbutton1 ,
+.discounts-widget-container .detail .sliderbutton1 
+{float:left; width:32px; padding-top:190px;}
+.expireOffers-widget-container .detail .sliderbutton1 img ,
+.discounts-widget-container .detail .sliderbutton1 img 
+{cursor:pointer}
+.expireOffers-widget-container .detail .sliderbutton1 img:hover ,
+.discounts-widget-container .detail .sliderbutton1 img:hover 
+{background:#FFF; opacity:.5;}
+.expireOffers-widget-container .detail #slider1 ,
+.discounts-widget-container .detail #slider1 
+{float:left; position:relative; overflow:hidden; padding-left:8px; width:506px; height:420px; background:#fff; overflow:hidden;}
+.expireOffers-widget-container .detail #slider1 ul ,
+.discounts-widget-container .detail #slider1 ul 
+{position:relative; list-style:none;padding:0; margin:0; overflow:hidden; height:420px;}
+.expireOffers-widget-container .detail #slider1 li ,
+.discounts-widget-container .detail #slider1 li 
+{float:left; width:510px; height:420px; padding:0px; margin:0;}
+
+
+.voucherOffers-widget-container .detail ,
+.productOffers-widget-container .detail ,
+.expireOffers-widget-container .detail ,
+.discounts-widget-container .detail 
+{ width:578px; border: 1px solid #89b73d; height:auto; padding:20px 0; padding-bottom:0px;}
+
+.voucherOffers-widget-container .detail .sliderbutton ,
+.productOffers-widget-container .detail .sliderbutton ,
+.expireOffers-widget-container .detail .sliderbutton ,
+.discounts-widget-container .detail .sliderbutton 
+{float:left; width:32px; padding-top:190px;}
+
+.voucherOffers-widget-container .detail .sliderbutton img ,
+.productOffers-widget-container .detail .sliderbutton img ,
+.expireOffers-widget-container .detail .sliderbutton img ,
+.discounts-widget-container .detail .sliderbutton img 
+{cursor:pointer}
+
+
+.voucherOffers-widget-container .detail .sliderbutton img:hover ,
+.productOffers-widget-container .detail .sliderbutton img:hover ,
+.expireOffers-widget-container .detail .sliderbutton img:hover ,
+.discounts-widget-container .detail .sliderbutton img:hover 
+{background:#FFF; opacity:.5;}
+
+.voucherOffers-widget-container .detail #slider ,
+.productOffers-widget-container .detail #slider ,
+.expireOffers-widget-container .detail #slider ,
+.discounts-widget-container .detail #slider 
+{float:left; position:relative; overflow:hidden; padding-left:8px; width:506px; height:420px; background:#fff; overflow:hidden;}
+/*
+#slider ul {position:absolute; list-style:none; top:0; left:0; padding:0; margin:0;}
+*/
+.voucherOffers-widget-container .detail #slider ul ,
+.productOffers-widget-container .detail #slider ul ,
+.expireOffers-widget-container .detail #slider ul ,
+.discounts-widget-container .detail #slider ul 
+{position:relative; list-style:none;padding:0; margin:0; overflow:hidden; height:420px;}
+
+.voucherOffers-widget-container .detail #slider li ,
+.productOffers-widget-container .detail #slider li ,
+.expireOffers-widget-container .detail #slider li ,
+.discounts-widget-container .detail #slider li 
+{float:left; width:510px; height:420px; padding:0px; margin:0;}
+
+.voucherOffers-widget-container .detail .pagination ,
+.productOffers-widget-container .detail .pagination ,
+.expireOffers-widget-container .detail .pagination ,
+.discounts-widget-container .detail .pagination 
+{float:left; list-style:none; height:auto; margin:10px 0; padding-left:40px; width:504px;}
+
+.voucherOffers-widget-container .detail .pagination li ,
+.productOffers-widget-container .detail .pagination li ,
+.expireOffers-widget-container .detail .pagination li ,
+.discounts-widget-container .detail .pagination li 
+{float:left; cursor:pointer; padding:5px 8px; background:#699d38; border:1px solid #999; margin:0 4px 4px 0; text-align:center; color:#FFF; font-family:'Cuprum'; font-size:14px;}
+
+.voucherOffers-widget-container .detail .pagination li:hover ,
+.productOffers-widget-container .detail .pagination li:hover ,
+.expireOffers-widget-container .detail .pagination li:hover ,
+.discounts-widget-container .detail .pagination li:hover 
+{background:#199fc4; border:1px solid #bbb; color:#FFF;}
+
+.voucherOffers-widget-container .detail .pagination li.current ,
+.productOffers-widget-container .detail .pagination li.current ,
+.expireOffers-widget-container .detail .pagination li.current ,
+.discounts-widget-container .detail .pagination li.current 
+{border:1px solid #ccc; background:#199fc4;}

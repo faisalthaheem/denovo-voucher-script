@@ -1,0 +1,2082 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2012-04-10 10:48+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: \controllers\cods_controller.php:285
+msgid "All Voucher Codes"
+msgstr ""
+
+#: \controllers\users_controller.php:710;714;830
+msgid "Invalid credentials. Please try again."
+msgstr ""
+
+#: \controllers\users_controller.php:807
+msgid "Welcome to DVS Control Panel, Please login using your Email and Password."
+msgstr ""
+
+#: \controllers\users_controller.php:826
+msgid "You need Manager account to login."
+msgstr ""
+
+#: \views\categories\index.ctp:2
+#: \views\elements\widget-backoffice-dashboard-menu.ctp:20
+#: \views\elements\widget-backoffice-main-menu.ctp:74
+#: \views\elements\widget-backoffice-manage-sites-list.ctp:53
+#: \views\elements\widget-backoffice-merchant-add.ctp:80
+#: \views\elements\widget-backoffice-merchant-edit.ctp:69
+#: \views\themed\factory\elements\widget-header.ctp:290
+#: \views\themed\factory\elements\widget-menu-footer.ctp:6
+msgid "Categories"
+msgstr ""
+
+#: \views\categories\index.ctp:8;45
+msgid "Actions"
+msgstr ""
+
+#: \views\categories\index.ctp:23
+msgid "View"
+msgstr ""
+
+#: \views\categories\index.ctp:24
+#: \views\elements\widget-backoffice-locations-index.ctp:51
+#: \views\elements\widget-backoffice-manage-categories-list.ctp:56;123
+#: \views\elements\widget-backoffice-manage-cods-list.ctp:74
+#: \views\elements\widget-backoffice-manage-merchants-list.ctp:56
+#: \views\elements\widget-backoffice-manage-site-banners.ctp:39
+#: \views\elements\widget-backoffice-manage-sites-list.ctp:43
+#: \views\elements\widget-backoffice-news-index.ctp:43
+msgid "Edit"
+msgstr ""
+
+#: \views\categories\index.ctp:25
+#: \views\themed\factory\elements\widget-conversations-detail.ctp:41
+#: \views\themed\factory\elements\widget-conversations-index.ctp:70
+#: \views\themed\factory\favorites\index.ctp:55
+msgid "Delete"
+msgstr ""
+
+#: \views\categories\index.ctp:25
+msgid "Are you sure you want to delete # %s?"
+msgstr ""
+
+#: \views\categories\index.ctp:33
+msgid "Page %page% of %pages%, showing %current% records out of %count% total, starting on record %start%, ending on %end%"
+msgstr ""
+
+#: \views\categories\index.ctp:38
+msgid "previous"
+msgstr ""
+
+#: \views\categories\index.ctp:41
+msgid "next"
+msgstr ""
+
+#: \views\categories\index.ctp:47
+msgid "New Category"
+msgstr ""
+
+#: \views\elements\widget-backoffice-banner-edit.ctp:7
+msgid "Update Banner"
+msgstr ""
+
+#: \views\elements\widget-backoffice-banner-edit.ctp:86
+msgid "Site"
+msgstr ""
+
+#: \views\elements\widget-backoffice-banner-edit.ctp:98
+msgid "Banner Type"
+msgstr ""
+
+#: \views\elements\widget-backoffice-banner-edit.ctp:107
+msgid "Link URL"
+msgstr ""
+
+#: \views\elements\widget-backoffice-banner-edit.ctp:116
+#: \views\elements\widget-backoffice-manage-site-banners.ctp:64
+msgid "Accounting Method"
+msgstr ""
+
+#: \views\elements\widget-backoffice-banner-edit.ctp:127
+msgid "Max. Impressions"
+msgstr ""
+
+#: \views\elements\widget-backoffice-banner-edit.ctp:136
+msgid "Max. Clicks"
+msgstr ""
+
+#: \views\elements\widget-backoffice-banner-edit.ctp:145
+#: \views\elements\widget-backoffice-site-add.ctp:130
+#: \views\elements\widget-backoffice-site-edit.ctp:151
+msgid "Active"
+msgstr ""
+
+#: \views\elements\widget-backoffice-banner-edit.ctp:156
+#: \views\elements\widget-backoffice-category-edit.ctp:124
+#: \views\elements\widget-backoffice-cod-edit.ctp:261
+#: \views\elements\widget-backoffice-locations-edit.ctp:200
+#: \views\elements\widget-backoffice-merchant-edit.ctp:244
+#: \views\elements\widget-backoffice-message-edit.ctp:48
+#: \views\elements\widget-backoffice-news-edit.ctp:94
+#: \views\elements\widget-backoffice-pages-edit.ctp:131
+#: \views\elements\widget-backoffice-profile-edit.ctp:182
+#: \views\themed\factory\elements\widget-profile-biodata-edit-about.ctp:70
+#: \views\themed\factory\elements\widget-profile-biodata-edit-contact.ctp:258
+msgid "Update"
+msgstr ""
+
+#: \views\elements\widget-backoffice-banner-edit.ctp:165
+#: \views\elements\widget-backoffice-category-add.ctp:139
+#: \views\elements\widget-backoffice-category-edit.ctp:135
+#: \views\elements\widget-backoffice-change-password.ctp:91
+#: \views\elements\widget-backoffice-cod-add.ctp:278
+#: \views\elements\widget-backoffice-cod-edit.ctp:272
+#: \views\elements\widget-backoffice-locations-add.ctp:210
+#: \views\elements\widget-backoffice-locations-edit.ctp:210
+#: \views\elements\widget-backoffice-merchant-add.ctp:264
+#: \views\elements\widget-backoffice-merchant-edit.ctp:256
+#: \views\elements\widget-backoffice-news-add.ctp:102
+#: \views\elements\widget-backoffice-news-edit.ctp:103
+#: \views\elements\widget-backoffice-pages-add.ctp:142
+#: \views\elements\widget-backoffice-pages-edit.ctp:142
+#: \views\elements\widget-backoffice-site-add.ctp:150
+#: \views\elements\widget-backoffice-site-edit.ctp:171
+#: \views\pictures\admin_widget_image_selector.ctp:97
+msgid "Cancel"
+msgstr ""
+
+#: \views\elements\widget-backoffice-category-add.ctp:6
+msgid "Create Category"
+msgstr ""
+
+#: \views\elements\widget-backoffice-category-add.ctp:65
+#: \views\elements\widget-backoffice-category-edit.ctp:64
+#: \views\elements\widget-backoffice-cod-add.ctp:74
+#: \views\elements\widget-backoffice-cod-edit.ctp:67
+#: \views\elements\widget-backoffice-dashboard-menu.ctp:161
+#: \views\elements\widget-backoffice-main-menu.ctp:30
+#: \views\elements\widget-backoffice-merchant-add.ctp:71
+#: \views\elements\widget-backoffice-merchant-edit.ctp:60
+#: \views\elements\widget-backoffice-news-add.ctp:66
+#: \views\elements\widget-backoffice-news-edit.ctp:66
+msgid "Sites"
+msgstr ""
+
+#: \views\elements\widget-backoffice-category-add.ctp:74
+msgid "Parent"
+msgstr ""
+
+#: \views\elements\widget-backoffice-category-add.ctp:81
+#: \views\elements\widget-backoffice-category-edit.ctp:80
+msgid "Category Name"
+msgstr ""
+
+#: \views\elements\widget-backoffice-category-add.ctp:90
+#: \views\elements\widget-backoffice-merchant-add.ctp:98
+#: \views\elements\widget-backoffice-merchant-edit.ctp:89
+msgid "Safe Name"
+msgstr ""
+
+#: \views\elements\widget-backoffice-category-add.ctp:99
+#: \views\elements\widget-backoffice-category-edit.ctp:95
+#: \views\elements\widget-backoffice-merchant-add.ctp:179
+#: \views\elements\widget-backoffice-merchant-edit.ctp:170
+#: \views\elements\widget-backoffice-pages-add.ctp:107
+#: \views\elements\widget-backoffice-pages-edit.ctp:106
+msgid "Meta Keywords"
+msgstr ""
+
+#: \views\elements\widget-backoffice-category-add.ctp:108
+#: \views\elements\widget-backoffice-category-edit.ctp:104
+#: \views\elements\widget-backoffice-merchant-add.ctp:188
+#: \views\elements\widget-backoffice-merchant-edit.ctp:179
+#: \views\elements\widget-backoffice-pages-add.ctp:98
+#: \views\elements\widget-backoffice-pages-edit.ctp:97
+msgid "Meta Description"
+msgstr ""
+
+#: \views\elements\widget-backoffice-category-add.ctp:117
+#: \views\elements\widget-backoffice-category-edit.ctp:113
+#: \views\elements\widget-backoffice-merchant-add.ctp:197
+#: \views\elements\widget-backoffice-merchant-edit.ctp:188
+#: \views\elements\widget-backoffice-pages-add.ctp:89
+#: \views\elements\widget-backoffice-pages-edit.ctp:88
+msgid "Meta Title"
+msgstr ""
+
+#: \views\elements\widget-backoffice-category-add.ctp:128
+#: \views\elements\widget-backoffice-cod-add.ctp:267
+#: \views\elements\widget-backoffice-locations-add.ctp:200
+#: \views\elements\widget-backoffice-manage-categories.ctp:34
+#: \views\elements\widget-backoffice-manage-cods.ctp:33
+#: \views\elements\widget-backoffice-merchant-add.ctp:253
+#: \views\elements\widget-backoffice-news-add.ctp:93
+#: \views\elements\widget-backoffice-pages-add.ctp:132
+#: \views\elements\widget-backoffice-site-add.ctp:139
+msgid "Create"
+msgstr ""
+
+#: \views\elements\widget-backoffice-category-edit.ctp:7
+msgid "Edit Category"
+msgstr ""
+
+#: \views\elements\widget-backoffice-category-edit.ctp:73
+msgid "Parent Category"
+msgstr ""
+
+#: \views\elements\widget-backoffice-category-edit.ctp:88
+msgid "Safe Category Name"
+msgstr ""
+
+#: \views\elements\widget-backoffice-category-just-unlink.ctp:30
+#: \views\elements\widget-backoffice-category-link-to-site.ctp:30
+#: \views\elements\widget-backoffice-cod-just-unlink.ctp:30
+#: \views\elements\widget-backoffice-cod-link-to-site.ctp:30
+#: \views\elements\widget-backoffice-merchant-just-unlink.ctp:30
+#: \views\elements\widget-backoffice-merchant-link-to-site.ctp:30
+#: \views\elements\widget-backoffice-message-edit.ctp:8
+msgid "Operation Complete"
+msgstr ""
+
+#: \views\elements\widget-backoffice-category-just-unlink.ctp:54
+#: \views\elements\widget-backoffice-cod-just-unlink.ctp:56
+#: \views\elements\widget-backoffice-merchant-just-unlink.ctp:56
+msgid "Unlink From"
+msgstr ""
+
+#: \views\elements\widget-backoffice-category-just-unlink.ctp:66
+#: \views\elements\widget-backoffice-cod-just-unlink.ctp:68
+#: \views\elements\widget-backoffice-manage-categories-list.ctp:35;101
+#: \views\elements\widget-backoffice-manage-categories.ctp:26;51
+#: \views\elements\widget-backoffice-manage-cods-list.ctp:85
+#: \views\elements\widget-backoffice-manage-cods.ctp:57;67
+#: \views\elements\widget-backoffice-manage-merchants-list.ctp:76
+#: \views\elements\widget-backoffice-manage-merchants.ctp:50;60
+#: \views\elements\widget-backoffice-merchant-just-unlink.ctp:68
+msgid "Unlink"
+msgstr ""
+
+#: \views\elements\widget-backoffice-category-link-to-site.ctp:53
+#: \views\elements\widget-backoffice-merchant-link-to-site.ctp:54
+#: \views\elements\widget-backoffice-single-category-link-to-site.ctp:53
+#: \views\elements\widget-backoffice-single-cod-link-to-site.ctp:53
+#: \views\elements\widget-backoffice-single-merchant-link-to-site.ctp:53
+msgid "Associate To"
+msgstr ""
+
+#: \views\elements\widget-backoffice-category-link-to-site.ctp:65
+#: \views\elements\widget-backoffice-cod-link-to-site.ctp:66
+#: \views\elements\widget-backoffice-merchant-link-to-site.ctp:66
+msgid "Create Link"
+msgstr ""
+
+#: \views\elements\widget-backoffice-change-password.ctp:5
+#: \views\elements\widget-backoffice-header.ctp:44
+msgid "Change Password"
+msgstr ""
+
+#: \views\elements\widget-backoffice-change-password.ctp:35
+msgid "Password changed successfully"
+msgstr ""
+
+#: \views\elements\widget-backoffice-change-password.ctp:57
+#: \views\themed\factory\elements\widget-users-change-password.ctp:26
+msgid "Current Password"
+msgstr ""
+
+#: \views\elements\widget-backoffice-change-password.ctp:65
+#: \views\themed\factory\elements\widget-users-change-password.ctp:35
+msgid "New Password"
+msgstr ""
+
+#: \views\elements\widget-backoffice-change-password.ctp:72
+msgid "Confirm New Password"
+msgstr ""
+
+#: \views\elements\widget-backoffice-change-password.ctp:81
+#: \views\themed\factory\elements\widget-users-change-password.ctp:56
+msgid "Change"
+msgstr ""
+
+#: \views\elements\widget-backoffice-check-name-exists.ctp:23
+msgid "Invalid Safe Name. Safe Name can only contain lower case letters, numbers and hyphens"
+msgstr ""
+
+#: \views\elements\widget-backoffice-check-name-exists.ctp:31
+msgid "is required."
+msgstr ""
+
+#: \views\elements\widget-backoffice-check-name-exists.ctp:50
+msgid "already exists, Please change it."
+msgstr ""
+
+#: \views\elements\widget-backoffice-cod-add.ctp:14
+msgid "Create Voucher"
+msgstr ""
+
+#: \views\elements\widget-backoffice-cod-add.ctp:82
+#: \views\elements\widget-backoffice-cod-edit.ctp:75
+#: \views\elements\widget-backoffice-locations-add.ctp:51
+#: \views\elements\widget-backoffice-locations-edit.ctp:50
+msgid "Merchant"
+msgstr ""
+
+#: \views\elements\widget-backoffice-cod-add.ctp:91
+#: \views\elements\widget-backoffice-cod-edit.ctp:85
+msgid "Type"
+msgstr ""
+
+#: \views\elements\widget-backoffice-cod-add.ctp:100
+#: \views\elements\widget-backoffice-cod-edit.ctp:94
+msgid "Title"
+msgstr ""
+
+#: \views\elements\widget-backoffice-cod-add.ctp:109
+#: \views\elements\widget-backoffice-cod-edit.ctp:103
+msgid "Safe Title"
+msgstr ""
+
+#: \views\elements\widget-backoffice-cod-add.ctp:118
+#: \views\elements\widget-backoffice-cod-edit.ctp:113
+#: \views\elements\widget-backoffice-merchant-add.ctp:107
+#: \views\elements\widget-backoffice-merchant-edit.ctp:98
+#: \views\elements\widget-backoffice-news-add.ctp:83
+#: \views\elements\widget-backoffice-news-edit.ctp:84
+msgid "Description"
+msgstr ""
+
+#: \views\elements\widget-backoffice-cod-add.ctp:127
+#: \views\elements\widget-backoffice-cod-edit.ctp:122
+msgid "Voucher Code"
+msgstr ""
+
+#: \views\elements\widget-backoffice-cod-add.ctp:136
+#: \views\elements\widget-backoffice-cod-edit.ctp:131
+msgid "Start Date"
+msgstr ""
+
+#: \views\elements\widget-backoffice-cod-add.ctp:146
+#: \views\elements\widget-backoffice-cod-edit.ctp:141
+#: \views\elements\widget-backoffice-manage-cods-list.ctp:98
+msgid "Expiry Date"
+msgstr ""
+
+#: \views\elements\widget-backoffice-cod-add.ctp:156
+#: \views\elements\widget-backoffice-cod-edit.ctp:151
+#: \views\elements\widget-backoffice-merchant-add.ctp:161
+#: \views\elements\widget-backoffice-merchant-edit.ctp:152
+msgid "Affiliate URL"
+msgstr ""
+
+#: \views\elements\widget-backoffice-cod-add.ctp:165
+#: \views\elements\widget-backoffice-cod-edit.ctp:160
+msgid "Custom Image URL"
+msgstr ""
+
+#: \views\elements\widget-backoffice-cod-add.ctp:169
+#: \views\elements\widget-backoffice-cod-edit.ctp:164
+#: \views\elements\widget-backoffice-merchant-add.ctp:129
+#: \views\elements\widget-backoffice-merchant-edit.ctp:120
+#: \views\themed\factory\elements\widget-conversations-new.ctp:17
+msgid "Select"
+msgstr ""
+
+#: \views\elements\widget-backoffice-cod-add.ctp:187
+msgid "Voucher Image"
+msgstr ""
+
+#: \views\elements\widget-backoffice-cod-add.ctp:202
+#: \views\elements\widget-backoffice-cod-edit.ctp:196
+msgid "Top"
+msgstr ""
+
+#: \views\elements\widget-backoffice-cod-add.ctp:211
+#: \views\elements\widget-backoffice-cod-edit.ctp:205
+msgid "Exclusive"
+msgstr ""
+
+#: \views\elements\widget-backoffice-cod-add.ctp:220
+#: \views\elements\widget-backoffice-cod-edit.ctp:214
+msgid "Printable"
+msgstr ""
+
+#: \views\elements\widget-backoffice-cod-add.ctp:229
+#: \views\elements\widget-backoffice-cod-edit.ctp:223
+msgid "Print Template"
+msgstr ""
+
+#: \views\elements\widget-backoffice-cod-add.ctp:238
+#: \views\elements\widget-backoffice-cod-edit.ctp:232
+msgid "Generic Print Text 1"
+msgstr ""
+
+#: \views\elements\widget-backoffice-cod-add.ctp:247
+#: \views\elements\widget-backoffice-cod-edit.ctp:241
+msgid "Generic Print Text 2"
+msgstr ""
+
+#: \views\elements\widget-backoffice-cod-add.ctp:256
+#: \views\elements\widget-backoffice-cod-edit.ctp:250
+msgid "Generic Print Text 3"
+msgstr ""
+
+#: \views\elements\widget-backoffice-cod-edit.ctp:14
+msgid "Edit Voucher"
+msgstr ""
+
+#: \views\elements\widget-backoffice-cod-link-to-site.ctp:54
+msgid "Link with"
+msgstr ""
+
+#: \views\elements\widget-backoffice-dashboard-menu.ctp:6
+#: \views\themed\factory\elements\widget-header.ctp:250
+msgid "Dashboard"
+msgstr ""
+
+#: \views\elements\widget-backoffice-dashboard-menu.ctp:33
+#: \views\elements\widget-backoffice-main-menu.ctp:93
+#: \views\elements\widget-backoffice-manage-sites-list.ctp:63
+#: \views\themed\factory\elements\widget-search-codes-and-merchants.ctp:16
+msgid "Merchants"
+msgstr ""
+
+#: \views\elements\widget-backoffice-dashboard-menu.ctp:46
+#: \views\elements\widget-backoffice-main-menu.ctp:113
+#: \views\themed\factory\elements\widget-search-codes-and-merchants.ctp:17
+msgid "Vouchers"
+msgstr ""
+
+#: \views\elements\widget-backoffice-dashboard-menu.ctp:59
+msgid "Add Category"
+msgstr ""
+
+#: \views\elements\widget-backoffice-dashboard-menu.ctp:71
+msgid "Add Merchant"
+msgstr ""
+
+#: \views\elements\widget-backoffice-dashboard-menu.ctp:83
+msgid "Add Voucher"
+msgstr ""
+
+#: \views\elements\widget-backoffice-dashboard-menu.ctp:96
+#: \views\elements\widget-backoffice-images.ctp:10
+#: \views\elements\widget-backoffice-main-menu.ctp:194
+msgid "Banners &amp; Logos"
+msgstr ""
+
+#: \views\elements\widget-backoffice-dashboard-menu.ctp:109
+#: \views\elements\widget-backoffice-main-menu.ctp:134
+msgid "Users"
+msgstr ""
+
+#: \views\elements\widget-backoffice-dashboard-menu.ctp:122
+msgid "Market Place"
+msgstr ""
+
+#: \views\elements\widget-backoffice-dashboard-menu.ctp:135
+#: \views\elements\widget-backoffice-main-menu.ctp:174
+#: \views\elements\widget-backoffice-news-index.ctp:10
+#: \views\themed\factory\elements\widget-dashboard-news.ctp:2
+msgid "News"
+msgstr ""
+
+#: \views\elements\widget-backoffice-dashboard-menu.ctp:148
+#: \views\elements\widget-backoffice-main-menu.ctp:154
+msgid "CMS"
+msgstr ""
+
+#: \views\elements\widget-backoffice-dashboard-menu.ctp:174
+#: \views\elements\widget-backoffice-main-menu.ctp:214
+#: \views\elements\widget-backoffice-subscriptions-index.ctp:5
+msgid "Subscribers"
+msgstr ""
+
+#: \views\elements\widget-backoffice-dashboard-menu.ctp:316
+msgid "coming soon"
+msgstr ""
+
+#: \views\elements\widget-backoffice-dashboard-registration-check.ctp:31
+msgid "Please register to contnue"
+msgstr ""
+
+#: \views\elements\widget-backoffice-footer.ctp:4
+msgid "Copyright &copy;"
+msgstr ""
+
+#: \views\elements\widget-backoffice-header.ctp:39
+msgid "Welcome"
+msgstr ""
+
+#: \views\elements\widget-backoffice-header.ctp:50
+#: \views\themed\factory\elements\widget-header.ctp:196
+msgid "Logout"
+msgstr ""
+
+#: \views\elements\widget-backoffice-header.ctp:62
+msgid "Version"
+msgstr ""
+
+#: \views\elements\widget-backoffice-image-selector.ctp:37
+#: \views\pictures\admin_widget_image_selector.ctp:10
+#: \views\pictures\admin_widget_upload_iframe.ctp:66
+msgid "Select Image"
+msgstr ""
+
+#: \views\elements\widget-backoffice-images.ctp:17
+msgid "New Banner"
+msgstr ""
+
+#: \views\elements\widget-backoffice-images.ctp:20
+msgid "New Logo"
+msgstr ""
+
+#: \views\elements\widget-backoffice-images.ctp:23
+msgid "New Voucher"
+msgstr ""
+
+#: \views\elements\widget-backoffice-images.ctp:26
+#: \views\elements\widget-backoffice-locations-index.ctp:53
+#: \views\elements\widget-backoffice-manage-cods-list.ctp:80
+#: \views\elements\widget-backoffice-manage-cods.ctp:49
+#: \views\elements\widget-backoffice-manage-merchants-list.ctp:65
+#: \views\elements\widget-backoffice-manage-merchants.ctp:42
+#: \views\elements\widget-backoffice-manage-users-list.ctp:59
+#: \views\elements\widget-backoffice-news-index.ctp:25;40
+#: \views\elements\widget-backoffice-user-pictures.ctp:19;68;73
+msgid "Remove"
+msgstr ""
+
+#: \views\elements\widget-backoffice-images.ctp:29
+msgid "Refresh"
+msgstr ""
+
+#: \views\elements\widget-backoffice-images.ctp:35
+#: \views\elements\widget-backoffice-manage-categories.ctp:59
+#: \views\elements\widget-backoffice-manage-cods.ctp:81
+#: \views\elements\widget-backoffice-manage-merchants.ctp:72
+#: \views\elements\widget-backoffice-manage-users.ctp:14
+#: \views\pictures\admin_widget_image_selector.ctp:19
+#: \views\themed\factory\elements\widget-search-community-search-form.ctp:15
+msgid "Search"
+msgstr ""
+
+#: \views\elements\widget-backoffice-images.ctp:150
+msgid "Are you sure to remove image?"
+msgstr ""
+
+#: \views\elements\widget-backoffice-images.ctp:172
+msgid "image not selected"
+msgstr ""
+
+#: \views\elements\widget-backoffice-images.ctp:176
+msgid "are you sure to remove selected image(s)?"
+msgstr ""
+
+#: \views\elements\widget-backoffice-last-login-time.ctp:1
+msgid "Last Login time "
+msgstr ""
+
+#: \views\elements\widget-backoffice-locations-add.ctp:6
+msgid "New Location for"
+msgstr ""
+
+#: \views\elements\widget-backoffice-locations-add.ctp:61
+#: \views\elements\widget-backoffice-locations-edit.ctp:61
+#: \views\elements\widget-backoffice-locations-index.ctp:57
+msgid "Latitude"
+msgstr ""
+
+#: \views\elements\widget-backoffice-locations-add.ctp:71
+#: \views\elements\widget-backoffice-locations-edit.ctp:71
+#: \views\elements\widget-backoffice-locations-index.ctp:61
+msgid "Longitude"
+msgstr ""
+
+#: \views\elements\widget-backoffice-locations-add.ctp:81
+#: \views\elements\widget-backoffice-locations-edit.ctp:81
+msgid "Town"
+msgstr ""
+
+#: \views\elements\widget-backoffice-locations-add.ctp:90
+#: \views\elements\widget-backoffice-locations-edit.ctp:90
+msgid "City"
+msgstr ""
+
+#: \views\elements\widget-backoffice-locations-add.ctp:99
+#: \views\elements\widget-backoffice-locations-edit.ctp:99
+msgid "State/County"
+msgstr ""
+
+#: \views\elements\widget-backoffice-locations-add.ctp:108
+#: \views\elements\widget-backoffice-locations-edit.ctp:108
+msgid "Country Code"
+msgstr ""
+
+#: \views\elements\widget-backoffice-locations-add.ctp:117
+#: \views\elements\widget-backoffice-locations-edit.ctp:117
+msgid "Country"
+msgstr ""
+
+#: \views\elements\widget-backoffice-locations-add.ctp:126
+#: \views\elements\widget-backoffice-locations-edit.ctp:126
+msgid "Zip Code"
+msgstr ""
+
+#: \views\elements\widget-backoffice-locations-add.ctp:135
+#: \views\elements\widget-backoffice-locations-edit.ctp:135
+msgid "Complete Address"
+msgstr ""
+
+#: \views\elements\widget-backoffice-locations-add.ctp:144
+#: \views\elements\widget-backoffice-locations-edit.ctp:144
+msgid "Comments"
+msgstr ""
+
+#: \views\elements\widget-backoffice-locations-add.ctp:153
+#: \views\elements\widget-backoffice-locations-edit.ctp:153
+msgid "Custom 1"
+msgstr ""
+
+#: \views\elements\widget-backoffice-locations-add.ctp:162
+#: \views\elements\widget-backoffice-locations-edit.ctp:162
+msgid "Custom 2"
+msgstr ""
+
+#: \views\elements\widget-backoffice-locations-add.ctp:171
+#: \views\elements\widget-backoffice-locations-edit.ctp:171
+msgid "Custom 3"
+msgstr ""
+
+#: \views\elements\widget-backoffice-locations-add.ctp:180
+#: \views\elements\widget-backoffice-locations-edit.ctp:180
+msgid "Custom 4"
+msgstr ""
+
+#: \views\elements\widget-backoffice-locations-add.ctp:189
+#: \views\elements\widget-backoffice-locations-edit.ctp:189
+msgid "Custom 5"
+msgstr ""
+
+#: \views\elements\widget-backoffice-locations-add.ctp:292
+#: \views\elements\widget-backoffice-locations-edit.ctp:304
+msgid "could not complete operation."
+msgstr ""
+
+#: \views\elements\widget-backoffice-locations-edit.ctp:5
+msgid "Change Location of"
+msgstr ""
+
+#: \views\elements\widget-backoffice-locations-index.ctp:5
+msgid "Locations for"
+msgstr ""
+
+#: \views\elements\widget-backoffice-locations-index.ctp:21
+msgid "New Location"
+msgstr ""
+
+#: \views\elements\widget-backoffice-locations-index.ctp:30
+msgid "Remove Location"
+msgstr ""
+
+#: \views\elements\widget-backoffice-locations-index.ctp:65
+#: \views\elements\widget-backoffice-profile-edit.ctp:166
+#: \views\elements\widget-backoffice-profile-info.ctp:76
+#: \views\themed\factory\elements\widget-profile-biodata-edit-contact.ctp:30
+msgid "Address"
+msgstr ""
+
+#: \views\elements\widget-backoffice-locations-index.ctp:130
+msgid "Do you realy want to delete this location?"
+msgstr ""
+
+#: \views\elements\widget-backoffice-locations-index.ctp:157
+msgid "Do you realy want to delete selected locations?"
+msgstr ""
+
+#: \views\elements\widget-backoffice-login.ctp:6
+msgid "Welcome to Back Office"
+msgstr ""
+
+#: \views\elements\widget-backoffice-login.ctp:76
+msgid "Admin Login"
+msgstr ""
+
+#: \views\elements\widget-backoffice-login.ctp:80
+msgid "Manager Login"
+msgstr ""
+
+#: \views\elements\widget-backoffice-login.ctp:105;107
+msgid "Welcome to Admin Panel, please login using your credentials."
+msgstr ""
+
+#: \views\elements\widget-backoffice-login.ctp:116
+#: \views\elements\widget-backoffice-profile-edit.ctp:66
+#: \views\elements\widget-backoffice-profile-info.ctp:55
+#: \views\elements\widget-backoffice-site-register.ctp:11
+#: \views\themed\factory\elements\widget-forgot-password.ctp:48
+#: \views\themed\factory\elements\widget-profile-biodata-edit-contact.ctp:230
+#: \views\themed\factory\elements\widget-signup.ctp:56
+msgid "Email"
+msgstr ""
+
+#: \views\elements\widget-backoffice-login.ctp:122
+#: \views\themed\factory\elements\widget-signup.ctp:64
+#: \views\themed\factory\users\widget_signin.ctp:63
+msgid "Password"
+msgstr ""
+
+#: \views\elements\widget-backoffice-login.ctp:130
+#: \views\themed\factory\elements\widget-header.ctp:206
+#: \views\themed\factory\users\widget_signin.ctp:39
+msgid "Login"
+msgstr ""
+
+#: \views\elements\widget-backoffice-login.ctp:162
+msgid "Copyright"
+msgstr ""
+
+#: \views\elements\widget-backoffice-main-menu.ctp:5
+#: \views\themed\factory\elements\widget-menu-footer.ctp:2
+msgid "Home"
+msgstr ""
+
+#: \views\elements\widget-backoffice-main-menu.ctp:27
+msgid "Configuration"
+msgstr ""
+
+#: \views\elements\widget-backoffice-main-menu.ctp:49
+msgid "Vouchers Import Plugins"
+msgstr ""
+
+#: \views\elements\widget-backoffice-main-menu.ctp:71
+#: \views\elements\widget-backoffice-manage-content.ctp:4
+msgid "Content Management"
+msgstr ""
+
+#: \views\elements\widget-backoffice-main-menu.ctp:241
+msgid "Plugins"
+msgstr ""
+
+#: \views\elements\widget-backoffice-main-menu.ctp:280
+msgid "Help"
+msgstr ""
+
+#: \views\elements\widget-backoffice-main-menu.ctp:282
+msgid "Blog"
+msgstr ""
+
+#: \views\elements\widget-backoffice-main-menu.ctp:283
+msgid "Forums"
+msgstr ""
+
+#: \views\elements\widget-backoffice-main-menu.ctp:288
+#: \views\themed\factory\elements\widget-footer.ctp:68
+msgid "About"
+msgstr ""
+
+#: \views\elements\widget-backoffice-main-menu.ctp:291
+msgid "DVS"
+msgstr ""
+
+#: \views\elements\widget-backoffice-manage-categories-list.ctp:47;113
+#: \views\elements\widget-backoffice-manage-categories.ctp:45
+#: \views\elements\widget-backoffice-manage-cods-list.ctp:68
+#: \views\elements\widget-backoffice-manage-cods.ctp:41
+#: \views\elements\widget-backoffice-manage-merchants.ctp:34
+msgid "Link To Site"
+msgstr ""
+
+#: \views\elements\widget-backoffice-manage-categories-list.ctp:65
+#: \views\elements\widget-backoffice-manage-categories.ctp:39
+msgid "Merge &amp; Remove"
+msgstr ""
+
+#: \views\elements\widget-backoffice-manage-categories-list.ctp:133
+msgid "Merge & Remove"
+msgstr ""
+
+#: \views\elements\widget-backoffice-manage-categories-list.ctp:205
+msgid "Are you sure to remove selected categories?"
+msgstr ""
+
+#: \views\elements\widget-backoffice-manage-categories.ctp:5
+msgid "Category Management"
+msgstr ""
+
+#: \views\elements\widget-backoffice-manage-categories.ctp:120
+msgid "Category Operations"
+msgstr ""
+
+#: \views\elements\widget-backoffice-manage-categories.ctp:149;170;186;206
+msgid "No category selected."
+msgstr ""
+
+#: \views\elements\widget-backoffice-manage-categories.ctp:153
+msgid "Are you sure to Merge & Remove selected categories?"
+msgstr ""
+
+#: \views\elements\widget-backoffice-manage-cods-list.ctp:48
+#: \views\elements\widget-backoffice-manage-merchants-list.ctp:88
+msgid "Viewed"
+msgstr ""
+
+#: \views\elements\widget-backoffice-manage-cods-list.ctp:52
+#: \views\elements\widget-backoffice-manage-merchants-list.ctp:92
+msgid "Likes"
+msgstr ""
+
+#: \views\elements\widget-backoffice-manage-cods-list.ctp:56
+#: \views\elements\widget-backoffice-manage-merchants-list.ctp:96
+msgid "FB Shared"
+msgstr ""
+
+#: \views\elements\widget-backoffice-manage-cods-list.ctp:94
+msgid "Star Date"
+msgstr ""
+
+#: \views\elements\widget-backoffice-manage-cods-list.ctp:136
+msgid "Do you really want to remove selected item?"
+msgstr ""
+
+#: \views\elements\widget-backoffice-manage-cods.ctp:141;145
+msgid "Cod Operations"
+msgstr ""
+
+#: \views\elements\widget-backoffice-manage-cods.ctp:174;190;211;235
+msgid "no item selected."
+msgstr ""
+
+#: \views\elements\widget-backoffice-manage-cods.ctp:215
+msgid "Do you really want to remove selected item(s)?"
+msgstr ""
+
+#: \views\elements\widget-backoffice-manage-content.ctp:10
+msgid "Choose a Site"
+msgstr ""
+
+#: \views\elements\widget-backoffice-manage-merchants-list.ctp:46
+#: \views\elements\widget-backoffice-single-category-link-to-site.ctp:65
+#: \views\elements\widget-backoffice-single-cod-link-to-site.ctp:65
+#: \views\elements\widget-backoffice-single-merchant-link-to-site.ctp:65
+msgid "Link"
+msgstr ""
+
+#: \views\elements\widget-backoffice-manage-merchants-list.ctp:100
+msgid "Tweets"
+msgstr ""
+
+#: \views\elements\widget-backoffice-manage-merchants-list.ctp:105
+msgid "Voucher Codes"
+msgstr ""
+
+#: \views\elements\widget-backoffice-manage-merchants-list.ctp:116
+msgid "Locations"
+msgstr ""
+
+#: \views\elements\widget-backoffice-manage-merchants-list.ctp:131
+msgid "Merchant Url"
+msgstr ""
+
+#: \views\elements\widget-backoffice-manage-merchants-list.ctp:135
+msgid "Affiliate Url"
+msgstr ""
+
+#: \views\elements\widget-backoffice-manage-merchants-list.ctp:151;155
+msgid "Merchant Operations"
+msgstr ""
+
+#: \views\elements\widget-backoffice-manage-merchants-list.ctp:186
+msgid "Do you really want to remove merchant?"
+msgstr ""
+
+#: \views\elements\widget-backoffice-manage-merchants.ctp:7
+msgid "Manage Merchants"
+msgstr ""
+
+#: \views\elements\widget-backoffice-manage-merchants.ctp:12
+#: \views\elements\widget-backoffice-manage-site-banners.ctp:15
+#: \views\elements\widget-backoffice-user-profile.ctp:10
+#: \views\themed\factory\cods\view.ctp:12
+#: \views\themed\factory\elements\widget-merchant-detail.ctp:11
+msgid "Back"
+msgstr ""
+
+#: \views\elements\widget-backoffice-manage-merchants.ctp:26
+#: \views\elements\widget-backoffice-merchant-add.ctp:7
+msgid "Create Merchant"
+msgstr ""
+
+#: \views\elements\widget-backoffice-manage-merchants.ctp:163;179;201;227
+msgid "no merchant selected."
+msgstr ""
+
+#: \views\elements\widget-backoffice-manage-merchants.ctp:205
+msgid "Do you really want to remove selected merchant(s)?"
+msgstr ""
+
+#: \views\elements\widget-backoffice-manage-site-banners.ctp:10
+msgid "Manage Banners"
+msgstr ""
+
+#: \views\elements\widget-backoffice-manage-site-banners.ctp:72;81
+msgid "Total Clicks"
+msgstr ""
+
+#: \views\elements\widget-backoffice-manage-site-banners.ctp:75;84
+msgid "Max Clicks"
+msgstr ""
+
+#: \views\elements\widget-backoffice-manage-site-banners.ctp:90
+msgid "Started"
+msgstr ""
+
+#: \views\elements\widget-backoffice-manage-site-banners.ctp:97
+msgid "Link Url"
+msgstr ""
+
+#: \views\elements\widget-backoffice-manage-site-banners.ctp:128
+msgid "Do you realy want to remove banner image?"
+msgstr ""
+
+#: \views\elements\widget-backoffice-manage-sites-activate.ctp:5;17
+msgid "Activate"
+msgstr ""
+
+#: \views\elements\widget-backoffice-manage-sites-activate.ctp:5;19
+msgid "De-activate"
+msgstr ""
+
+#: \views\elements\widget-backoffice-manage-sites-list.ctp:4
+msgid "Manage Sites"
+msgstr ""
+
+#: \views\elements\widget-backoffice-manage-sites-list.ctp:8
+msgid "Create Site"
+msgstr ""
+
+#: \views\elements\widget-backoffice-manage-sites-list.ctp:29
+msgid "Created"
+msgstr ""
+
+#: \views\elements\widget-backoffice-manage-sites-list.ctp:74
+msgid "Codes"
+msgstr ""
+
+#: \views\elements\widget-backoffice-manage-sites-list.ctp:85
+msgid "Site Banners"
+msgstr ""
+
+#: \views\elements\widget-backoffice-manage-users-list.ctp:70
+#: \views\elements\widget-backoffice-user-conversations.ctp:9
+#: \views\themed\factory\elements\widget-conversations-index.ctp:13
+#: \views\themed\factory\elements\widget-header.ctp:135
+msgid "Conversations"
+msgstr ""
+
+#: \views\elements\widget-backoffice-manage-users-list.ctp:77
+msgid "Pictures"
+msgstr ""
+
+#: \views\elements\widget-backoffice-manage-users-list.ctp:113
+msgid "Are you sure to remove this user?"
+msgstr ""
+
+#: \views\elements\widget-backoffice-manage-users.ctp:5
+#: \views\elements\widget-backoffice-user-profile.ctp:5
+msgid "User Management"
+msgstr ""
+
+#: \views\elements\widget-backoffice-manage-users.ctp:52
+msgid "All Users"
+msgstr ""
+
+#: \views\elements\widget-backoffice-manage-users.ctp:65
+msgid "New Users"
+msgstr ""
+
+#: \views\elements\widget-backoffice-merchant-add.ctp:89
+#: \views\elements\widget-backoffice-merchant-edit.ctp:78
+msgid "Merchant Name"
+msgstr ""
+
+#: \views\elements\widget-backoffice-merchant-add.ctp:116
+#: \views\elements\widget-backoffice-merchant-edit.ctp:107
+msgid "Site URL"
+msgstr ""
+
+#: \views\elements\widget-backoffice-merchant-add.ctp:125
+#: \views\elements\widget-backoffice-merchant-edit.ctp:116
+msgid "Logo URL"
+msgstr ""
+
+#: \views\elements\widget-backoffice-merchant-add.ctp:170
+#: \views\elements\widget-backoffice-merchant-edit.ctp:161
+msgid "Top Merchant?"
+msgstr ""
+
+#: \views\elements\widget-backoffice-merchant-add.ctp:206
+#: \views\elements\widget-backoffice-merchant-edit.ctp:197
+msgid "Phone 1"
+msgstr ""
+
+#: \views\elements\widget-backoffice-merchant-add.ctp:215
+#: \views\elements\widget-backoffice-merchant-edit.ctp:206
+msgid "Phone 2"
+msgstr ""
+
+#: \views\elements\widget-backoffice-merchant-add.ctp:224
+#: \views\elements\widget-backoffice-merchant-edit.ctp:215
+msgid "Phone 3"
+msgstr ""
+
+#: \views\elements\widget-backoffice-merchant-add.ctp:233
+#: \views\elements\widget-backoffice-merchant-edit.ctp:224
+msgid "Address 1"
+msgstr ""
+
+#: \views\elements\widget-backoffice-merchant-add.ctp:242
+#: \views\elements\widget-backoffice-merchant-edit.ctp:233
+msgid "Address 2"
+msgstr ""
+
+#: \views\elements\widget-backoffice-merchant-edit.ctp:7
+msgid "Update Merchant"
+msgstr ""
+
+#: \views\elements\widget-backoffice-merge-categories.ctp:32
+#: \views\elements\widget-backoffice-profile-edit.ctp:30
+msgid "Update Complete"
+msgstr ""
+
+#: \views\elements\widget-backoffice-merge-categories.ctp:56
+msgid "Merge into"
+msgstr ""
+
+#: \views\elements\widget-backoffice-merge-categories.ctp:71
+msgid "Merge Categories"
+msgstr ""
+
+#: \views\elements\widget-backoffice-message-edit.ctp:36
+#: \views\elements\widget-backoffice-plugin-logs.ctp:15
+#: \views\themed\factory\elements\widget-conversations-new.ctp:38
+#: \views\themed\factory\elements\widget-conversations-send-message.ctp:24
+msgid "Message"
+msgstr ""
+
+#: \views\elements\widget-backoffice-news-add.ctp:6
+msgid "Add News"
+msgstr ""
+
+#: \views\elements\widget-backoffice-news-add.ctp:75
+#: \views\elements\widget-backoffice-news-edit.ctp:75
+msgid "News Title"
+msgstr ""
+
+#: \views\elements\widget-backoffice-news-edit.ctp:6
+msgid "Update News"
+msgstr ""
+
+#: \views\elements\widget-backoffice-news-index.ctp:21
+msgid "New News"
+msgstr ""
+
+#: \views\elements\widget-backoffice-news-index.ctp:45
+msgid "Created at"
+msgstr ""
+
+#: \views\elements\widget-backoffice-news-index.ctp:81
+msgid "Are you sure?"
+msgstr ""
+
+#: \views\elements\widget-backoffice-news-index.ctp:113
+msgid "Are you sure to remove selected news?"
+msgstr ""
+
+#: \views\elements\widget-backoffice-pages-add.ctp:6
+msgid "Create Page"
+msgstr ""
+
+#: \views\elements\widget-backoffice-pages-add.ctp:64
+#: \views\elements\widget-backoffice-pages-edit.ctp:62
+msgid "Choose Site"
+msgstr ""
+
+#: \views\elements\widget-backoffice-pages-add.ctp:71
+#: \views\elements\widget-backoffice-pages-edit.ctp:70
+msgid "Page Name"
+msgstr ""
+
+#: \views\elements\widget-backoffice-pages-add.ctp:80
+#: \views\elements\widget-backoffice-pages-edit.ctp:79
+msgid "Link Name"
+msgstr ""
+
+#: \views\elements\widget-backoffice-pages-add.ctp:117
+#: \views\elements\widget-backoffice-pages-edit.ctp:116
+msgid "Page Content"
+msgstr ""
+
+#: \views\elements\widget-backoffice-pages-edit.ctp:6
+msgid "Update Page"
+msgstr ""
+
+#: \views\elements\widget-backoffice-pages-list.ctp:14
+msgid "Create New Page"
+msgstr ""
+
+#: \views\elements\widget-backoffice-pages-list.ctp:45
+msgid "Delete Page"
+msgstr ""
+
+#: \views\elements\widget-backoffice-pages-list.ctp:74
+msgid "Please Select Site from the left"
+msgstr ""
+
+#: \views\elements\widget-backoffice-pagination.ctp:2
+msgid "Next"
+msgstr ""
+
+#: \views\elements\widget-backoffice-pagination.ctp:3
+msgid "Previous"
+msgstr ""
+
+#: \views\elements\widget-backoffice-picture-upload-failure.ctp:14
+msgid "Upload Failed..!"
+msgstr ""
+
+#: \views\elements\widget-backoffice-picture-upload-success.ctp:14
+msgid "Upload Successfull..!"
+msgstr ""
+
+#: \views\elements\widget-backoffice-picture-upload-success.ctp:16
+msgid "Please \"Refresh\" to see the uploaded image."
+msgstr ""
+
+#: \views\elements\widget-backoffice-plugin-configuration.ctp:7
+#: \views\elements\widget-backoffice-plugin-list.ctp:3
+msgid "Plugins Settings"
+msgstr ""
+
+#: \views\elements\widget-backoffice-plugin-logs.ctp:14
+msgid "Time"
+msgstr ""
+
+#: \views\elements\widget-backoffice-profile-edit.ctp:43;43
+msgid "Male"
+msgstr ""
+
+#: \views\elements\widget-backoffice-profile-edit.ctp:43;43
+msgid "Female"
+msgstr ""
+
+#: \views\elements\widget-backoffice-profile-edit.ctp:59
+#: \views\elements\widget-backoffice-profile-info.ctp:54
+#: \views\themed\factory\elements\widget-profile-biodata-about.ctp:6
+msgid "Name"
+msgstr ""
+
+#: \views\elements\widget-backoffice-profile-edit.ctp:76
+#: \views\themed\factory\elements\widget-search-community-search-form.ctp:383
+#: \views\themed\factory\elements\widget-search-community-search-results.ctp:63
+#: \views\themed\factory\favorites\index.ctp:28
+msgid "Gender"
+msgstr ""
+
+#: \views\elements\widget-backoffice-profile-edit.ctp:85
+#: \views\elements\widget-backoffice-profile-info.ctp:60
+#: \views\themed\factory\elements\widget-profile-biodata-about.ctp:12
+#: \views\themed\factory\elements\widget-profile-biodata-edit-about.ctp:42
+msgid "Nationality"
+msgstr ""
+
+#: \views\elements\widget-backoffice-profile-edit.ctp:94
+msgid "Birthday"
+msgstr ""
+
+#: \views\elements\widget-backoffice-profile-edit.ctp:103
+msgid "Phone"
+msgstr ""
+
+#: \views\elements\widget-backoffice-profile-edit.ctp:112
+#: \views\elements\widget-backoffice-profile-info.ctp:59
+msgid "Website"
+msgstr ""
+
+#: \views\elements\widget-backoffice-profile-edit.ctp:121
+msgid "Facebook URL"
+msgstr ""
+
+#: \views\elements\widget-backoffice-profile-edit.ctp:130
+msgid "Twitter URL"
+msgstr ""
+
+#: \views\elements\widget-backoffice-profile-edit.ctp:139
+msgid "MySpace URL"
+msgstr ""
+
+#: \views\elements\widget-backoffice-profile-edit.ctp:148
+msgid "Orkut URL"
+msgstr ""
+
+#: \views\elements\widget-backoffice-profile-edit.ctp:157
+#: \views\elements\widget-backoffice-profile-info.ctp:73
+msgid "Education"
+msgstr ""
+
+#: \views\elements\widget-backoffice-profile-info.ctp:5
+msgid "Profile Information"
+msgstr ""
+
+#: \views\elements\widget-backoffice-profile-info.ctp:56
+#: \views\themed\factory\elements\widget-profile-biodata-about.ctp:18
+#: \views\themed\factory\elements\widget-search-community-search-form.ctp:356
+#: \views\themed\factory\elements\widget-search-community-search-results.ctp:69
+#: \views\themed\factory\favorites\index.ctp:36
+msgid "Age"
+msgstr ""
+
+#: \views\elements\widget-backoffice-profile-info.ctp:63
+#: \views\themed\factory\elements\widget-profile-biodata-edit-contact.ctp:130
+msgid "Facebook"
+msgstr ""
+
+#: \views\elements\widget-backoffice-profile-info.ctp:64
+msgid "Phone #"
+msgstr ""
+
+#: \views\elements\widget-backoffice-profile-info.ctp:67
+#: \views\themed\factory\elements\widget-profile-biodata-edit-contact.ctp:155
+msgid "My Space"
+msgstr ""
+
+#: \views\elements\widget-backoffice-profile-info.ctp:68
+msgid "Language"
+msgstr ""
+
+#: \views\elements\widget-backoffice-profile-info.ctp:72
+#: \views\themed\factory\elements\widget-profile-biodata-edit-contact.ctp:180
+msgid "Twitter"
+msgstr ""
+
+#: \views\elements\widget-backoffice-profile-info.ctp:111
+msgid "Are you sure to delete this profile?"
+msgstr ""
+
+#: \views\elements\widget-backoffice-profile-info.ctp:144
+msgid "Are you sure to remove user picture?"
+msgstr ""
+
+#: \views\elements\widget-backoffice-single-category-link-to-site.ctp:30
+#: \views\elements\widget-backoffice-single-cod-link-to-site.ctp:29
+#: \views\elements\widget-backoffice-single-merchant-link-to-site.ctp:29
+msgid "Operation Complete."
+msgstr ""
+
+#: \views\elements\widget-backoffice-site-add.ctp:20
+msgid "Create New Site"
+msgstr ""
+
+#: \views\elements\widget-backoffice-site-add.ctp:44
+#: \views\elements\widget-backoffice-site-edit.ctp:56
+msgid "Site Name"
+msgstr ""
+
+#: \views\elements\widget-backoffice-site-add.ctp:52
+#: \views\elements\widget-backoffice-site-edit.ctp:65
+msgid "Theme Name"
+msgstr ""
+
+#: \views\elements\widget-backoffice-site-add.ctp:59
+#: \views\elements\widget-backoffice-site-edit.ctp:72
+msgid "Notes"
+msgstr ""
+
+#: \views\elements\widget-backoffice-site-add.ctp:65
+#: \views\elements\widget-backoffice-site-edit.ctp:80
+msgid "Twitter Settings"
+msgstr ""
+
+#: \views\elements\widget-backoffice-site-add.ctp:70
+#: \views\elements\widget-backoffice-site-edit.ctp:87
+msgid "Twitter Username"
+msgstr ""
+
+#: \views\elements\widget-backoffice-site-add.ctp:77
+#: \views\elements\widget-backoffice-site-edit.ctp:94
+msgid "Twitter Password"
+msgstr ""
+
+#: \views\elements\widget-backoffice-site-add.ctp:83
+#: \views\elements\widget-backoffice-site-edit.ctp:102
+msgid "Facebook Settings"
+msgstr ""
+
+#: \views\elements\widget-backoffice-site-add.ctp:88
+#: \views\elements\widget-backoffice-site-edit.ctp:109
+msgid "Facebook Application Id"
+msgstr ""
+
+#: \views\elements\widget-backoffice-site-add.ctp:95
+#: \views\elements\widget-backoffice-site-edit.ctp:116
+msgid "Facebook Secret"
+msgstr ""
+
+#: \views\elements\widget-backoffice-site-add.ctp:102
+#: \views\elements\widget-backoffice-site-edit.ctp:123
+msgid "Facebook Like Code"
+msgstr ""
+
+#: \views\elements\widget-backoffice-site-add.ctp:109
+#: \views\elements\widget-backoffice-site-edit.ctp:130
+msgid "Facebook Page"
+msgstr ""
+
+#: \views\elements\widget-backoffice-site-add.ctp:116
+#: \views\elements\widget-backoffice-site-edit.ctp:137
+msgid "Insert to Header"
+msgstr ""
+
+#: \views\elements\widget-backoffice-site-add.ctp:123
+#: \views\elements\widget-backoffice-site-edit.ctp:144
+msgid "Insert to Footer"
+msgstr ""
+
+#: \views\elements\widget-backoffice-site-add.ctp:168
+#: \views\elements\widget-backoffice-site-edit.ctp:190
+msgid "Site Logo"
+msgstr ""
+
+#: \views\elements\widget-backoffice-site-edit.ctp:24
+msgid "Change Site Info"
+msgstr ""
+
+#: \views\elements\widget-backoffice-site-edit.ctp:160
+msgid "UPDATE"
+msgstr ""
+
+#: \views\elements\widget-backoffice-site-register.ctp:8
+#: \views\themed\factory\elements\widget-profile-biodata-edit-about.ctp:24
+#: \views\themed\factory\elements\widget-signup.ctp:48
+msgid "Full Name"
+msgstr ""
+
+#: \views\elements\widget-backoffice-site-register.ctp:14
+msgid "Register!"
+msgstr ""
+
+#: \views\elements\widget-backoffice-site-register.ctp:25
+msgid "Please enter your name"
+msgstr ""
+
+#: \views\elements\widget-backoffice-site-register.ctp:34
+msgid "Please provide with a valid email address"
+msgstr ""
+
+#: \views\elements\widget-backoffice-site-register.ctp:60
+msgid "Thank you for registering!"
+msgstr ""
+
+#: \views\elements\widget-backoffice-subscriptions-index.ctp:11
+msgid "Select Site"
+msgstr ""
+
+#: \views\elements\widget-backoffice-upload-image.ctp:7
+msgid "Upload Image"
+msgstr ""
+
+#: \views\elements\widget-backoffice-user-conversations.ctp:125
+msgid "Are you sure to remove user conversation?"
+msgstr ""
+
+#: \views\elements\widget-backoffice-user-ip.ctp:1
+msgid "Last Login IP"
+msgstr ""
+
+#: \views\elements\widget-backoffice-user-ip.ctp:2
+msgid "Current IP"
+msgstr ""
+
+#: \views\elements\widget-backoffice-user-pictures.ctp:13
+msgid "Select All"
+msgstr ""
+
+#: \views\elements\widget-backoffice-user-pictures.ctp:60
+msgid "Ignore"
+msgstr ""
+
+#: \views\elements\widget-backoffice-welcome-message.ctp:11
+msgid "Admin Home"
+msgstr ""
+
+#: \views\elements\widget-backoffice-welcome-message.ctp:15
+msgid "Manager Home"
+msgstr ""
+
+#: \views\elements\widget-backoffice-welcome-message.ctp:26
+msgid "Welcome to DVS Control Panel"
+msgstr ""
+
+#: \views\layouts\default.ctp:25
+msgid "CakePHP: the rapid development php framework:"
+msgstr ""
+
+#: \views\layouts\default.ctp:72;83
+msgid "CakePHP: the rapid development php framework"
+msgstr ""
+
+#: \views\layouts\print-voucher-template-default.ctp:32
+msgid "Voucher Barcode"
+msgstr ""
+
+#: \views\layouts\print-voucher-template-default.ctp:67
+#: \views\themed\factory\cods\view.ctp:133
+msgid "Print Voucher"
+msgstr ""
+
+#: \views\layouts\print-voucher-template-default.ctp:70
+msgid "Expires"
+msgstr ""
+
+#: \views\pages\admin_about_us.ctp:7
+msgid "About DVS"
+msgstr ""
+
+#: \views\pages\admin_about_us.ctp:13
+msgid "DVS can be extended easily to support"
+msgstr ""
+
+#: \views\pages\admin_about_us.ctp:16
+msgid "Cash Back Sites"
+msgstr ""
+
+#: \views\pages\admin_about_us.ctp:19
+msgid "Masqueraded affiliate URLs"
+msgstr ""
+
+#: \views\pages\admin_about_us.ctp:22
+msgid "Customized Themes and designs"
+msgstr ""
+
+#: \views\pages\admin_about_us.ctp:25
+msgid "and much more!"
+msgstr ""
+
+#: \views\pages\admin_about_us.ctp:29
+msgid "For more information, please contact us at"
+msgstr ""
+
+#: \views\pages\display.ctp:5
+#: \views\themed\factory\pages\display.ctp:5
+msgid "Page not found"
+msgstr ""
+
+#: \views\pictures\admin_widget_image_selector.ctp:30
+msgid "Picture.search"
+msgstr ""
+
+#: \views\pictures\admin_widget_image_selector.ctp:96
+msgid "OK"
+msgstr ""
+
+#: \views\pictures\admin_widget_upload_iframe.ctp:58
+msgid "Title (optional)"
+msgstr ""
+
+#: \views\pictures\admin_widget_upload_iframe.ctp:77
+#: \views\themed\factory\pictures\widget_upload_iframe.ctp:39
+msgid "UPLOAD"
+msgstr ""
+
+#: \views\subscriptions\unsubscribe.ctp:16
+msgid "You will no longer receive any emails at"
+msgstr ""
+
+#: \views\subscriptions\unsubscribe.ctp:16
+msgid "for"
+msgstr ""
+
+#: \views\subscriptions\unsubscribe.ctp:22
+msgid "Sorry, but we could not process your request at this moment for your address"
+msgstr ""
+
+#: \views\themed\factory\cods\view.ctp:29
+msgid "shares"
+msgstr ""
+
+#: \views\themed\factory\cods\view.ctp:34
+msgid "Share"
+msgstr ""
+
+#: \views\themed\factory\cods\view.ctp:117
+msgid "Show Code &amp; visit site"
+msgstr ""
+
+#: \views\themed\factory\cods\view.ctp:123
+msgid "Visit Site"
+msgstr ""
+
+#: \views\themed\factory\cods\view.ctp:145
+msgid "Opened On Site"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-ajax-loading-normally-shown.ctp:1
+msgid "loading"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-ajax-loading-signup.ctp:5
+msgid "Loading..."
+msgstr ""
+
+#: \views\themed\factory\elements\widget-ajax-loading.ctp:1
+msgid "Loading"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-categories-index.ctp:4
+msgid "All Categories"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-categories-vouchers-deals.ctp:3
+msgid "Merchant &amp; Voucher Categories"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-conversations-detail.ctp:16
+msgid "<< Back"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-conversations-detail.ctp:33;44
+msgid "Reply"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-conversations-new-result.ctp:3
+msgid "There was an error sending your message. Please"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-conversations-new-result.ctp:6
+msgid "try again."
+msgstr ""
+
+#: \views\themed\factory\elements\widget-conversations-new-result.ctp:16
+msgid "Your message was sent successfully"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-conversations-new-result.ctp:19
+msgid "send another."
+msgstr ""
+
+#: \views\themed\factory\elements\widget-conversations-new.ctp:7
+msgid "Compose Message"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-conversations-new.ctp:14
+msgid "To"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-conversations-new.ctp:22
+#: \views\themed\factory\elements\widget-conversations-send-message.ctp:16
+msgid "Subject"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-conversations-new.ctp:54
+msgid "Send"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-conversations-new.ctp:131
+msgid "Please select a recipient."
+msgstr ""
+
+#: \views\themed\factory\elements\widget-conversations-new.ctp:138
+msgid "Please enter subject of the message"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-conversations-new.ctp:145
+msgid "Please enter your message."
+msgstr ""
+
+#: \views\themed\factory\elements\widget-conversations-send-message.ctp:89
+msgid "Please enter subject of the message."
+msgstr ""
+
+#: \views\themed\factory\elements\widget-conversations-send-message.ctp:95
+msgid "Please enter body of the Message."
+msgstr ""
+
+#: \views\themed\factory\elements\widget-dashboard-news.ctp:35
+msgid "No News."
+msgstr ""
+
+#: \views\themed\factory\elements\widget-dashboard-notifications.ctp:2
+msgid "Important Notifications"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-dashboard-notifications.ctp:35
+msgid "No notifications."
+msgstr ""
+
+#: \views\themed\factory\elements\widget-dashboard-shouts.ctp:2
+msgid "Shouts"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-dashboard-shouts.ctp:45
+msgid "No Shouts."
+msgstr ""
+
+#: \views\themed\factory\elements\widget-favorite.ctp:8;21
+msgid "Remove from favorites"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-favorite.ctp:8;20;23
+msgid "Add to favorites"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-footer-follow-us.ctp:8
+msgid "Want to be the first to know about our vouchers and deals?"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-footer-follow-us.ctp:10
+msgid "Follow us on Twitter!"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-footer-follow-us.ctp:22
+msgid "Catch us onFacebook!"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-footer-follow-us.ctp:24
+msgid "Become a fan now."
+msgstr ""
+
+#: \views\themed\factory\elements\widget-footer.ctp:21
+msgid "Recently Viewed Merchants"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-footer.ctp:41
+msgid "Recently Viewed Categories"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-footer.ctp:77
+msgid "Terms of use"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-footer.ctp:86;152
+msgid "Privacy Policy"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-footer.ctp:98
+msgid "Boomark Page"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-footer.ctp:99
+msgid "Download Toolbar"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-footer.ctp:134
+msgid "Use of this site is subject to the"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-footer.ctp:139
+msgid "Terms & Conditions"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-footer.ctp:148
+msgid "which constitutes a legal agreement between you and DVS, Inc.<br />View our"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-footer.ctp:161
+msgid "revised and effective"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-forgot-password.ctp:7
+msgid "An email has been sent to your email address, please check it for instructions on how to continue from here."
+msgstr ""
+
+#: \views\themed\factory\elements\widget-forgot-password.ctp:11
+msgid "We could not reset your password at this time, please confirm your email address."
+msgstr ""
+
+#: \views\themed\factory\elements\widget-forgot-password.ctp:37
+msgid "Enter Your Registered Email address to Reset your Password"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-forgot-password.ctp:64
+msgid "Submit"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-friends-add.ctp:8
+msgid "Add as friend"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-friends-add.ctp:15
+#: \views\themed\factory\elements\widget-header.ctp:15
+msgid "Friends"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-friends-add.ctp:17
+msgid "Pending"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-friends-add.ctp:28
+msgid "Request sent."
+msgstr ""
+
+#: \views\themed\factory\elements\widget-friends-manage.ctp:4
+#: \views\themed\factory\elements\widget-header.ctp:25
+msgid "Manage Friends"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-friends-manage.ctp:11
+msgid "You currently have no friends"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-friends-manage.ctp:14
+msgid "Find New Friends."
+msgstr ""
+
+#: \views\themed\factory\elements\widget-friends-manage.ctp:51
+msgid "Unfriend"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-friends-manage.ctp:63
+msgid "Are you sure you want to unfriend this friend?"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-friends-manage.ctp:67
+msgid "Removed."
+msgstr ""
+
+#: \views\themed\factory\elements\widget-friends-pending-my-approval.ctp:4
+#: \views\themed\factory\elements\widget-header.ctp:50
+msgid "Pending My Approval"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-friends-pending-my-approval.ctp:10
+msgid "There are no pending requests."
+msgstr ""
+
+#: \views\themed\factory\elements\widget-friends-pending-my-approval.ctp:38
+msgid "Accept"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-friends-pending-my-approval.ctp:39
+msgid "Reject"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-friends-pending-my-approval.ctp:51
+msgid "Accepted."
+msgstr ""
+
+#: \views\themed\factory\elements\widget-friends-pending-my-approval.ctp:54
+msgid "Rejected."
+msgstr ""
+
+#: \views\themed\factory\elements\widget-friends-sent-requests.ctp:4
+#: \views\themed\factory\elements\widget-header.ctp:75
+msgid "Sent Requests"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-friends-sent-requests.ctp:10
+msgid "There are no sent requests."
+msgstr ""
+
+#: \views\themed\factory\elements\widget-header.ctp:6
+msgid "Download our Toolbar"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-header.ctp:100
+msgid "Find Friends"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-header.ctp:125
+msgid "Messaging"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-header.ctp:159
+msgid "New Message"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-header.ctp:219
+msgid "Register"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-header.ctp:259
+msgid "Profile"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-header.ctp:268
+msgid "Account"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-header.ctp:299
+#: \views\themed\factory\elements\widget-menu-footer.ctp:13
+msgid "Everything"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-header.ctp:308
+#: \views\themed\factory\elements\widget-menu-footer.ctp:20
+msgid "New Stuff"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-header.ctp:317
+#: \views\themed\factory\elements\widget-menu-footer.ctp:27
+msgid "Expiring Stuff"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-header.ctp:326
+msgid "Local Offers"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-index-tabbed-recent-top-topmerchant.ctp:4
+msgid "Most Recent"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-index-tabbed-recent-top-topmerchant.ctp:5
+msgid "Top Viewed"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-index-tabbed-recent-top-topmerchant.ctp:6
+#: \views\themed\factory\elements\widget-merchants-top.ctp:4
+msgid "Top Merchants"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-merchant-detail.ctp:111
+msgid "Code"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-merchant-detail.ctp:130
+msgid "Discount"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-merchant-detail.ctp:148
+msgid "Offer"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-merchant-detail.ctp:166
+msgid "Deal"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-merchants-browse-by-category.ctp:12
+msgid "Browsing by Category"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-merchants-browse.ctp:3
+msgid "Browse shops"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-merchants-index.ctp:12
+msgid "Browsing Merchants"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-merchants-most-popular.ctp:4
+msgid "Most Popular Merchants"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-paging-standard.ctp:5
+msgid "<< Previous"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-paging-standard.ctp:11
+msgid "Next >>"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-picture-report-abuse.ctp:5;18
+#: \views\themed\factory\elements\widget-profile-report-abuse.ctp:6;19
+msgid "Withdraw Abuse Report"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-picture-report-abuse.ctp:5;17;20
+#: \views\themed\factory\elements\widget-profile-report-abuse.ctp:6;18;21
+msgid "Report Abuse"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-picture-upload-failure.ctp:3
+msgid "Upload Failed"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-picture-upload-success.ctp:3
+msgid "Upload Successfull"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-pictures.ctp:27
+msgid "No Title"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-profile-biodata-about.ctp:2
+msgid "About Me"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-profile-biodata-edit-about.ctp:3
+msgid "Basic Information"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-profile-biodata-edit-about.ctp:56
+msgid "Date of Birth"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-profile-biodata-edit-about.ctp:123
+#: \views\themed\factory\elements\widget-profile-biodata-edit-contact.ctp:286
+msgid "There was an error updating your data."
+msgstr ""
+
+#: \views\themed\factory\elements\widget-profile-biodata-edit-about.ctp:131
+#: \views\themed\factory\elements\widget-profile-biodata-edit-contact.ctp:294
+msgid "Data updated successfully."
+msgstr ""
+
+#: \views\themed\factory\elements\widget-profile-biodata-edit-contact.ctp:3
+msgid "Contact Information"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-profile-biodata-edit-contact.ctp:26
+msgid "Publicly visible?"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-profile-biodata-edit-contact.ctp:55
+msgid "Phone No"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-profile-biodata-edit-contact.ctp:80
+msgid "My Website"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-profile-biodata-edit-contact.ctp:105
+msgid "My Blog"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-profile-biodata-edit-contact.ctp:205
+msgid "Orkut"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-profile-biodata.ctp:2
+msgid "Bio Data"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-search-codes-and-merchants.ctp:3
+msgid "Search All Voucher Codes &amp; Merchants"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-search-community-search-form.ctp:344
+msgid "User Name"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-search-community-search-results.ctp:7
+msgid "Search Results"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-search-community-search-results.ctp:17
+msgid "matches"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-signup-success.ctp:2
+msgid "Thank You for Signing Up!"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-signup-success.ctp:3
+msgid "Please check your email for instructions on how to continue from here."
+msgstr ""
+
+#: \views\themed\factory\elements\widget-signup.ctp:25;103
+msgid "Sign Up"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-signup.ctp:72
+#: \views\themed\factory\elements\widget-users-change-password.ctp:44
+msgid "Confirm Password"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-signup.ctp:90
+msgid "Enter shown code"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-subscriptions-subscribe-footer.ctp:3
+msgid "Subcribe to our NewsLetter"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-subscriptions-subscribe-footer.ctp:7
+msgid "Sign up Best Voucher Codes delivered straight to your<br />inbox every week."
+msgstr ""
+
+#: \views\themed\factory\elements\widget-subscriptions-subscribe-top.ctp:3
+msgid "Subcribe to our Vouchers &amp; Discounts by Email"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-subscriptions-subscribe-top.ctp:7
+msgid "Enter your Email Address below and start recieving the day's best vouchers and deals"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-users-change-password.ctp:101
+msgid "Password has been changed successfully."
+msgstr ""
+
+#: \views\themed\factory\elements\widget-vouchers-top.ctp:4
+msgid "Top Vouchers"
+msgstr ""
+
+#: \views\themed\factory\elements\widget-vouchers-what-new.ctp:4
+msgid "What's New"
+msgstr ""
+
+#: \views\themed\factory\favorites\index.ctp:4
+msgid "My Favourite"
+msgstr ""
+
+#: \views\themed\factory\favorites\index.ctp:50
+msgid "Send Message"
+msgstr ""
+
+#: \views\themed\factory\pages\welcome.ctp:6
+msgid "Welcome to Denovo Voucher Script"
+msgstr ""
+
+#: \views\themed\factory\pages\welcome.ctp:9
+msgid "Save money on your favourite brands by availing special Deals, Vouchers, Discounts and Offers, Quick Voucher Codes from Additions, Argos, Currys, Dixons, Homebase, Direct Cosmetics etc."
+msgstr ""
+
+#: \views\themed\factory\pictures\widget_upload_iframe.ctp:29
+msgid "Choose Picture"
+msgstr ""
+
+#: \views\themed\factory\users\verify_email.ctp:7
+msgid "Account Activated"
+msgstr ""
+
+#: \views\themed\factory\users\verify_email.ctp:9
+msgid "Your account is now activated, please sign in using your email, password and enjoy!"
+msgstr ""
+
+#: \views\themed\factory\users\verify_email.ctp:19
+msgid "Account Activation Failed"
+msgstr ""
+
+#: \views\themed\factory\users\verify_email.ctp:21
+msgid "Either your account is already activated or the verification email is expired."
+msgstr ""
+
+#: \views\themed\factory\users\widget_signin.ctp:42
+msgid "Forgot password"
+msgstr ""
+
+#: \views\themed\factory\users\widget_signin.ctp:51
+msgid "Email address"
+msgstr ""
+
+#: \views\themed\factory\users\widget_signin.ctp:76
+msgid "Log in"
+msgstr ""
+
+#: \views\users\janrainauth.ctp:9
+msgid "Please wait while we process your request..."
+msgstr ""
+
+#: \webroot\test.php:88
+msgid "Debug setting does not allow access to this url."
+msgstr ""
+

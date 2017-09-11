@@ -1,0 +1,1 @@
+<div style="display: block;" id="<?php echo $div_dom_id; ?>"><center><img src="/theme/factory/img/loader-bounce.gif" alt = "<?php __('loading');?>..." /></center></div>
