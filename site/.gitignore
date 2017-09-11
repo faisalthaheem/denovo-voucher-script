@@ -9,3 +9,5 @@
 /app/tmp/tests/*
 !/app/tmp/tests/empty
 /cake/tests/*
+/app/tmp/logs/*
+!/app/tmp/logs/empty
