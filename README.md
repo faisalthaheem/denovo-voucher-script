@@ -30,8 +30,8 @@ sendmail|yes
 php safe mode|off
 php_memory_limit| &gt;128M
 
-# Trying it out quickly
-Quickest way to try out the script is using docker, build the image from the Dockerfile in the "docker-dev" folder and run it
+# Trying it out
+Quickest way to try out the script is using docker, build the image from the Dockerfile which contains the runtime environment only in "docker-dev" folder and run it
 
     git clone https://github.com/faisalthaheem/denovo-voucher-script.git
     cd denovo-voucher-script
@@ -39,4 +39,16 @@ Quickest way to try out the script is using docker, build the image from the Doc
     build.bat
     run.bat "c:/somelocation/denovo-voucher-script/site"
 
-Follow the instructions in the "Setup" section of wiki to get started.
+**To setup DB, execute the following sql script files after connecting to the mysql instance in the docker container on localhost**
+
+See ["Connecting to the bundled MySQL server from outside the container"](https://hub.docker.com/r/peterwilli/lamp-with-php5/) for instructions on finding the username/password
+
+/app/config/schema/db.sql
+/app/config/schema/adility.sql
+/app/config/schema/affilinet.sql
+/app/config/schema/icodesuk.sql
+/app/config/schema/icodesus.sql
+
+
+# Demo videos
+[Goto demo index page](https://github.com/faisalthaheem/denovo-voucher-script/wiki/Demo-Video-Index)
