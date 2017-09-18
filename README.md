@@ -6,6 +6,9 @@ DVS is extremely simple to use. Once operational you can log in to the administr
 Apart from other competitive websites, DVS has widgets that automatically analyze trends and display the most interesting retailers and products in order of popularity throughout the site.
 
 
+# Release Notes
+Please see [wiki page](https://github.com/faisalthaheem/denovo-voucher-script/wiki/Release-Notes)
+
 ----------
 **Following screenshot illustrates the landing page on a (almost) fresh install of the script**
 ![Landing Page](https://rawgit.com/faisalthaheem/denovo-voucher-script/master/docs/home-page.png)
