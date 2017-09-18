@@ -1,3 +1,5 @@
+The developer can be reached at faisal (dot) ajmal (@) gmail (dot) com
+
 # [DVS] Denovo Voucher Script
 Denovo Voucher Script (DVS) is an affiliate marketing tool you can install on your domain to market affiliated products/promotions/offers etc. as well as distribute vouchers to your visitors through the tool.
 
