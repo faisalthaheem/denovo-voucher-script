@@ -1,27 +1,13 @@
+Copyright 2017 Faisal Thaheem
 
-  The DVS License (http://www.voucherscript.com/license.html)
-  Denovo Voucher Script (DVS): The Instant Voucher Site (http://www.voucherscript.com)
-  Copyright 2009-2012, Computed Synergy (http://www.computedsynergy.com), Pakistan.
- 
-  Permission is hereby granted to:
- 
-  1] Use this software free of charge for personal purposes only.
-  2] Modify the script to customize it as needed.
- 
- 
-  Provided you agree to the following terms:
- 
-  1] You will NOT sell or resell any part of this software or works deriving from it.
-  2] You will not remove or modify any copyright notice and/or credits without written permission of it's author(s).
-  3] You will not use this software for illegal, adult, pornograpic or abusive purposes.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
 
- 
-  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
-  DEALINGS IN THE SOFTWARE.
-  
- 
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
