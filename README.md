@@ -46,12 +46,13 @@ Quickest way to try out the script is using docker, build the image from the Doc
 
 See ["Connecting to the bundled MySQL server from outside the container"](https://hub.docker.com/r/peterwilli/lamp-with-php5/) for instructions on finding the username/password
 
+```
 /app/config/schema/db.sql
 /app/config/schema/adility.sql
 /app/config/schema/affilinet.sql
 /app/config/schema/icodesuk.sql
 /app/config/schema/icodesus.sql
-
+```
 
 # Demo videos
 [Goto demo index page](https://github.com/faisalthaheem/denovo-voucher-script/wiki/Demo-Video-Index)
