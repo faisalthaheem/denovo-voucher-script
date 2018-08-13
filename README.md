@@ -11,6 +11,9 @@ Apart from other competitive websites, DVS has widgets that automatically analyz
 # Release Notes
 Please see [wiki page](https://github.com/faisalthaheem/denovo-voucher-script/wiki/Release-Notes)
 
+# Quick Setup Videos
+Please see [Denovo Voucher Script YoutTube channel](https://www.youtube.com/channel/UCz8osXWXsbyc5d6p927-m3Q)
+
 ----------
 **Following screenshot illustrates the landing page on a (almost) fresh install of the script**
 ![Landing Page](https://rawgit.com/faisalthaheem/denovo-voucher-script/master/docs/home-page.png)
