@@ -1,6 +1,6 @@
 FROM php:5.6.40-apache-stretch
 
-LABEL maintainer="Faisal Thaheem" BASENAME="dvs"
+LABEL maintainer="Faisal Thaheem" BASENAME="faisalthaheem/dvs"
 
 ADD ./conf/000-default.conf /etc/apache2/sites-enabled/
 #copy to temp and move later in below statement to make 

@@ -32,7 +32,7 @@ services:
     volumes:
      - /sessions
   dvs:
-    image: dvs:1.0
+    image: faisalthaheem/dvs:latest
     ports:
       - "8080:80"
     networks:

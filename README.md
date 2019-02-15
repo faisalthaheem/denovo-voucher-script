@@ -1,5 +1,16 @@
 For support cases please open tickets using the "issues" tab on the top.
 
+# Trying it out
+Quickest way to try out the script is using docker, after you have installed docker do the following
+
+    git clone https://github.com/faisalthaheem/denovo-voucher-script.git
+    cd denovo-voucher-script
+    docker-compose up
+
+The above will take care of file permissions, database setup as well as starting a phpmyadmin instance on http://localhost:8081
+
+You can browse the site at http://localhost:8080 and access the administrative backend at http://localhost:8080/admin using the default username and passsword "admin@voucherscript.com" and "admin"
+
 # [DVS] Denovo Voucher Script
 Denovo Voucher Script (DVS) is an affiliate marketing tool you can install on your domain to market affiliated products/promotions/offers etc. as well as distribute vouchers to your visitors through the tool.
 
@@ -38,26 +49,12 @@ sendmail|yes
 php safe mode|off
 php_memory_limit| &gt;128M
 
-# Trying it out
-Quickest way to try out the script is using docker, build the image from the Dockerfile which contains the runtime environment only in "docker-dev" folder and run it
+# Setup manually
 
-    git clone https://github.com/faisalthaheem/denovo-voucher-script.git
-    cd denovo-voucher-script
-    cd docker-dev
-    build.bat
-    run.bat "c:/somelocation/denovo-voucher-script/site"
+Copy the content of the "site" folder to /var/www/html (assuming that is your web root) and remember to change the ownership recursively to www-data.www-data/ 
 
-**To setup DB, execute the following sql script files after connecting to the mysql instance in the docker container on localhost**
-
-See ["Connecting to the bundled MySQL server from outside the container"](https://hub.docker.com/r/peterwilli/lamp-with-php5/) for instructions on finding the username/password
-
-```
-/app/config/schema/db.sql
-/app/config/schema/adility.sql
-/app/config/schema/affilinet.sql
-/app/config/schema/icodesuk.sql
-/app/config/schema/icodesus.sql
-```
+To setup DB, import all the .sql files inside site/app/config/schema/sql
+For details related to database setup, please refer to database.php under site/app/config
 
 # Demo videos
 [Goto demo index page](https://github.com/faisalthaheem/denovo-voucher-script/wiki/Demo-Video-Index)

@@ -33,8 +33,10 @@
  * In production mode, flash messages redirect after a time interval.
  * In development mode, you need to click the flash message to continue.
  */
+
 	$debug = getenv('DEBUG');
-	printf("DEBUG set to %s", $debug);
+	$log_debug = sprintf("[DEBUG=%s] ", $debug);
+	file_put_contents('php://stderr', $log_debug);
 	Configure::write('debug', (int)$debug);
 
 /**
