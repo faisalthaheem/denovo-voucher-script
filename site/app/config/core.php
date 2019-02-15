@@ -33,7 +33,9 @@
  * In production mode, flash messages redirect after a time interval.
  * In development mode, you need to click the flash message to continue.
  */
-	Configure::write('debug', 0);
+	$debug = getenv('DEBUG');
+	printf("DEBUG set to %s", $debug);
+	Configure::write('debug', (int)$debug);
 
 /**
  * CakePHP Log Level:

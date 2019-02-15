@@ -1,0 +1,47 @@
+version: "3"
+services:
+  mysql:
+    image: mysql:5.5
+    volumes:
+      - db-data:/var/lib/mysql/data
+    networks:
+      - flat_network
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: always
+    environment:
+      MYSQL_ROOT_PASSWORD: dvsdvs123_
+      MYSQL_DATABASE: dvs
+    volumes:
+      - ./site/app/config/schema/sql:/docker-entrypoint-initdb.d
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:4.6
+    container_name: phpmyadmin
+    environment:
+     - PMA_ARBITRARY=1
+     - PMA_HOST=mysql
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: always
+    networks:
+      - flat_network
+    ports:
+     - 8081:80
+    volumes:
+     - /sessions
+  dvs:
+    image: dvs:1.0
+    ports:
+      - "8080:80"
+    networks:
+      - flat_network
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: always  
+volumes:
+  db-data:
+networks:
+  flat_network:

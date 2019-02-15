@@ -2,11 +2,11 @@
 class DATABASE_CONFIG {
 
 	var $default = array(
-		'driver' => 'mysql',
+		'driver' => 'mysqli',
 		'persistent' => false,
-		'host' => 'localhost',
-		'login' => 'admin',
-		'password' => 'wPGrfRWvqM3g',
+		'host' => 'mysql',
+		'login' => 'root',
+		'password' => 'dvsdvs123_',
 		'database' => 'dvs',
 	);
 }
